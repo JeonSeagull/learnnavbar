@@ -1,64 +1,64 @@
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .navbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color:  black;
-      padding: 10px 20px;
-    }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  black;
+    padding: 10px 20px;
+}
 
-    .logo-container {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-    .logo img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
-    .logo-text {
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-    }
+.logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-    .menu {
-      display: flex;
-      gap: 15px;
-      margin-left: auto;
-      margin-right: 15px; 
-    }
+.menu {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin: 0 auto;
+}
 
-    .menu div {
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-      transition: color 0.3s;
-    }
+.menu div {
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: color 0.3s;
+}
 
-    .menu div:hover {
-      color: #a80038;
-    }
+.menu div:hover {
+    color: #a80038;
+}
 
-    .search-box {
-      display: flex;
-      align-items: center;
-    }
+.home {
+    background-color: #a80038;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-    .search-box input {
-      width: 150px;
-      padding: 5px 10px;
-      border: none;
-      border-radius: 20px;
-      outline: none;
-      background-color: white;
-      transition: background-color 0.3s;
-    }
+.home:hover {
+    background-color: white;
+    color: #a80038;
+}
